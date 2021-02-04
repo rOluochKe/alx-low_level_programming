@@ -1,23 +1,20 @@
-include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- * main - Entry point for writing entire base10 single digits
- *
- * Return: Always 0 (Success)
+ * main - Entry point
+ * Return:0
  */
+
 int main(void)
 {
-int integer;
-
-for (integer = 0 ; integer <= 9 ; integer++)
+int i;
+for (i = 0; i < 10; i++)
 {
-putchar(integer + '0');
-if (integer != 9)
+putchar (i + '0');
+if (i < 9)
 {
-putchar(',');
-putchar(' ');
+putchar (',');
+putchar (' ');
 }
 }
 putchar('\n');
