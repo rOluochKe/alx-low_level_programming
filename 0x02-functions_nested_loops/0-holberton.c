@@ -1,19 +1,20 @@
-int _putchar(char c);
-
+#include "holberton.h"
 /**
- * main - Entry point
- *
- * Return: Always 0
+ * main - code execution
+ * Description: print Holberton then newline
+ * Return: 0
  */
 int main(void)
 {
-char word[10] = "Holberton";
-int a = 0;
-while (a < 9)
-{
-_putchar(word[a]);
-a++;
-}
-_putchar('\n');
-return (0);
+  _putchar('H');
+  _putchar('o');
+  _putchar('l');
+  _putchar('b');
+  _putchar('e');
+  _putchar('r');
+  _putchar('t');
+  _putchar('o');
+  _putchar('n');
+  _putchar('\n');
+  return (0);
 }
